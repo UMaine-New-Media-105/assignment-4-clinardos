@@ -12,5 +12,12 @@ assignment-4-clinardos created by GitHub Classroom
     for (let petalsAdded = 0; petalsAdded <120; petalsAdded++)
     { rotate (140) ellipse (0,42,7,45) } 
 ```
+<p> This helped to complete my function, the last step within the function was to now add parameters, these are what I used:
+<ul>
+    <li> Translate (x,y) </li>
+    <li> Scale (size) </li>
+    <li> Fill ("color") </li>
+<br> Adding these parameters altered my function name so it now looked like: <strong> "addSunFlower(x,y,size,color)" </strong>
+<p> For the last part of the challenge, I simply added 4 sunflowers with different parameters to the draw() function. This allowed me to create what seemed like 4 different shapes. 
 
 

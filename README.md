@@ -1,5 +1,4 @@
 # assignment-4-clinardos
-assignment-4-clinardos created by GitHub Classroom
 
 
 ## assignment-4-challenge-1
@@ -40,3 +39,22 @@ assignment-4-clinardos created by GitHub Classroom
 ```
 
 I added all of the variables used in each SunFlower so the program could be read properly. There were a total of 10 sunflowers. Then I just played around with arrangement until it looked like a piece of fabric. 
+
+## assignment-4-challenge-3
+### [Link](https://editor.p5js.org/clinardos/full/XEJGfXZru)
+
+<p> For this Challenge the task was to incorporate randomness into our parameters. First,  we had to watch the tutorial "Draw a Random Pattern with P5.js" to give us an idea of what we could randomize within our sketch. Then you had to incorporate techniques from the tutorial to randomize your pattern. 
+<p> I changed a lot for this challenge I took out my duplicated flowers and allowed the pattern to have 4 different unique flowers. I did this to try and clear up my code. After designing the four different flowers. I then added random parameters to both the position and the color. When adding random parameters to the position I just created an interval variable and used the randomize function. For the color I had to create an array which left the code looking like this: 
+
+```Javascript 
+let colors = [
+  "powderblue", "lightblue","lightskyblue","deepskyblue","skyblue","lightsteelblue","steelblue","dodgerblue","cornflakeblue","royalblue","blue","mediumblue","darkblue","navy","midnightblue","mediumslateblue","slateblue","darkslateblue"
+];
+function setup() {
+ randomColors1 = random(colors);
+ randomColors2 = random(colors);
+ randomColors3 = random(colors);
+ randomColors4 = random(colors); }
+  ```
+  
+  Then I just called each random color in the fill funciton of the corresponding flower. 

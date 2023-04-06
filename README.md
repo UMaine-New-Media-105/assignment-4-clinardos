@@ -58,3 +58,10 @@ function setup() {
   ```
   
   Then I just called each random color in the fill funciton of the corresponding flower. 
+    
+    ## assignment-4-challenge-3
+### [Link](https://editor.p5js.org/clinardos/full/YcRj_jGRm)
+   
+    In the final part of this assignment the task was to follow the directions from the "draw a pattern from an array" tutorial and create a pattern where the sprites appear in a set order. 
+    I simply began by copying my previous sketch and religning the flowers so it looks as if there are two different lines of flowers. Next I created a new array and utilized the random function to make the size of the flower switch with each column. 
+    
